@@ -6,7 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.moshi.MoshiConverterFactory
 
 object Api {
-    public const val API_KEY = "e00b1278065e4cf7ae8f0848bfb2023b"
+    public const val API_KEY = "/*Give your APi key here from newsapi.org*/"
     private const val BASE_URL ="https://newsapi.org/v2/"
 
     private val moshi = Moshi.Builder()
